@@ -1,0 +1,1 @@
+python train_ncnet.py --ncons_kernel_sizes 3 3 --ncons_channels 16 1 --dataset_image_path /root/dataset2/ivd --dataset_csv_path /root/dataset2/ivd/image_pairs --result_model_fn 'checkpoint_ncnet_img_ivd_lr54' --result_model_dir 'trainLog_ncnet_img_ivd_lr54' --gpu_id 0 --batch_size 16
